@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    /* 
+    #ddd
+    #E6F7FF
+    #E1FEEA
+    #FFE6F7
+    #F3F3F3
+    #F2E9E1
+     */
+    tbody > tr:nth-child(even) {
+      background-color: #E6F7FF;
+    }
+    tbody > tr:nth-child(odd) {
+      background-color: #F2E9E1;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr style="background-color: #ddd;">
+      <th>操作类型</th>
+      <th>按键指令</th>
+      <th>用途</th>
+    </tr>
+    <tr>
+      <td rowspan="2">文本查找</td>
+      <td>/word</td>
+      <td>向后查找字符串 ”word“</td>
+    </tr>
+    <tr>
+      <td>n、N</td>
+      <td>跳至后/前一个结果</td>
+    </tr>
+    <tr>
+      <td rowspan="3">撤销编辑</td>
+      <td>u</td>
+      <td>撤销对当前行的所有修改</td>
+    </tr>
+    <tr>
+      <td>U</td>
+      <td>撤销对当前行的所有修改</td>
+    </tr>
+    <tr>
+      <td><kbd>Ctrl</kbd>+<kbd>r</kbd></td>
+      <td>取消前一次撤销操作</td>
+    </tr>
+    <tr>
+      <td>保存退出</td>
+      <td>ZZ</td>
+      <td>保存修改并退出</td>
+    </tr>
+  </table>
+</body>
+
+</html>

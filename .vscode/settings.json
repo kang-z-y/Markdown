@@ -1,0 +1,107 @@
+{
+    /////////提高vscode性能//////////
+    "search.followSymlinks": false,
+    "git.autorefresh": false,
+    ///////////////////////////////
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    //"editor.lineNumbers": "on",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.tabCompletion": "on",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.inlineSuggest.fontFamily": "'Droid Sans Mono'",
+    "editor.linkedEditing": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "files.autoSave": "onFocusChange",
+    "debug.console.fontFamily": "Monoid",
+    "terminal.integrated.fontFamily": "DejaVu, Liberation",
+    "scm.inputFontFamily": "source-code-pro",
+    ///////////////////////////////
+    "typescript.locale": "zh-CN",
+    "files.associations": {
+        "*.sql": "sql"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "markdown.preview.fontFamily": "MonoLisa, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "markdownlint.config": {
+        "default": true,
+        "MD033": {
+            "allowed_elements": [
+                "kbd",
+                "font",
+                "div",
+                "img",
+                "table",
+                "tbody",
+                "tr",
+                "th",
+                "td",
+                "sup"
+            ]
+        }
+    },
+    //picgo 配置////////////////////
+    "picgo.picBed.current": "aliyun",
+    "picgo.picBed.aliyun.accessKeyId": "LTAI5tHPQrdKHt5wEn4AusbM",
+    "picgo.picBed.aliyun.accessKeySecret": "GAsncPFtWyB9mxCpupomF61T7qQgKl",
+    "picgo.picBed.aliyun.area": "oss-cn-beijing",
+    "picgo.picBed.aliyun.bucket": "kkkkzzzzyy",
+    "picgo.picBed.aliyun.customUrl": "https://kkkkzzzzyy.oss-cn-beijing.aliyuncs.com",
+    "picgo.customOutputFormat": "<div align=center> <img alt=\"${uploadedName}\" title=\"\" src=${url} width=80%/> </div>",
+    "picgo.picBed.aliyun.path": "云计算/",
+    ///////////////////////////////
+    "cSpell.words": [
+        "blkid",
+        "chsh",
+        "createrepo",
+        "devel",
+        "elif",
+        "esac",
+        "fstype",
+        "fuser",
+        "gpgcheck",
+        "growfs",
+        "killall",
+        "LNMP",
+        "lvextend",
+        "nologin",
+        "poweroff",
+        "repodata",
+        "repoinfo",
+        "repolist",
+        "rpmbuild",
+        "Servlet",
+        "stty",
+        "unalias",
+        "usermod",
+        "vimdiff",
+        "vsftp",
+        "vsftpd",
+        "WSGI"
+    ],
+    ////////////////////////////
+}

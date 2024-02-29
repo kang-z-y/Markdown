@@ -1,0 +1,6 @@
+Index,FD（文件描述符）,Description
+1,cwd,Current Working Directory
+2,txt,This indicates a "Text file"
+3,NUMBER,This number represents the actual file descriptor value.(Note: all these values will be part of directory structure in Linux systems)
+4,mem,Memory mapped file
+5,mmap,Memory mapped Device

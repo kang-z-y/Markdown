@@ -1,0 +1,9 @@
+Value,File Type
+DIR,Directory
+REG,Regular
+CHR,Character
+a_node,Inode file
+FIFO,Pipe or socket type of file
+unixq,Unix type of file
+netlink/ipv4,Network
+unknown,Unknown types(especially for "transitory" process used in `/proc`)

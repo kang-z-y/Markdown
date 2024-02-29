@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    /* 
+    #ddd
+    #E6F7FF
+    #E1FEEA
+    #FFE6F7
+    #F3F3F3
+    #F2E9E1
+     */
+    tbody > tr:nth-child(even) {
+      background-color: #E6F7FF;
+    }
+    tbody > tr:nth-child(odd) {
+      background-color: #F2E9E1;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr style="background-color: #ddd;">
+      <th>操作类型</th>
+      <th>按键指令</th>
+      <th>用途</th>
+    </tr>
+    <tr>
+      <td>复制</td>
+      <td>yy、#yy</td>
+      <td>复制光标处的一行、#行</td>
+    </tr>
+    <tr>
+      <td>粘贴</td>
+      <td>p、P</td>
+      <td>粘贴到光标处之后、之前</td>
+    </tr>
+    <tr>
+      <td rowspan="4">删除</td>
+      <td>x</td>
+      <td>删除光标处的单个字符</td>
+    </tr>
+    <tr>
+      <td>dd、#dd</td>
+      <td>删除光标处的一行、#行</td>
+    </tr>
+    <tr>
+      <td>d^</td>
+      <td>从光标处之前删除至行首</td>
+    </tr>
+    <tr>
+      <td>d$</td>
+      <td>从光标处删除到行尾</td>
+    </tr>
+  </table>
+</body>
+
+</html>

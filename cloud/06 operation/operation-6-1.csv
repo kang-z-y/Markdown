@@ -1,0 +1,14 @@
+命令, 说明
+`systemctl`, 列出所有启动的服务
+`systemctl status ...`, 查看服务状态
+`systemctl start ...`, 启动服务状态
+`systemctl stop ...`, 关闭服务状态
+`systemctl restart ...`, 重启服务状态
+`systemctl enable ...`, 设置开机自启
+`systemctl enable --now ...`, 设置开机自启并启动
+`systemctl disable ...`, 禁止开机自启
+`systemctl disable --now ...`, 禁止开机自启并关闭
+`systemctl is-active ...`, 查看是否激活
+`systemctl is-enable ...`, 查看是否开机自启
+`systemctl reboot`, 重启计算机
+`systemctl poweroff`, 关闭计算机
