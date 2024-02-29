@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    /* 
+    #ddd
+    #E6F7FF
+    #E1FEEA
+    #FFE6F7
+    #F3F3F3
+    #F2E9E1
+     */
+    tbody > tr:nth-child(even) {
+      background-color: #E6F7FF;
+    }
+    tbody > tr:nth-child(odd) {
+      background-color: #F2E9E1;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr style="background-color: #ddd;">
+      <th>操作类型</th>
+      <th>按键指令</th>
+      <th>用途</th>
+    </tr>
+    <tr>
+      <td>移动光标</td>
+      <td>h、j、k、l</td>
+      <td>左、下、上、右</td>
+    </tr>
+    <tr>
+      <td rowspan="2">光标行内跳转</td>
+      <td>
+        ^ 或 数字0
+      </td>
+      <td>跳转到行首</td>
+    </tr>
+    <tr>
+      <td>$</td>
+      <td>跳转到行尾</td>
+    </tr>
+    <tr>
+      <td>全文翻页</td>
+      <td><kbd>PgUp</kbd>、<kbd>PgDn</kbd></td>
+      <td>向上翻页、向下翻页</td>
+    </tr>
+    <tr>
+      <td rowspan="2">光标行间跳转</td>
+      <td>1G 或 gg</td>
+      <td>跳转到文件的行首</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>跳转到文件的末尾行</td>
+    </tr>
+  </table>
+</body>
+
+</html>

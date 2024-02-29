@@ -1,0 +1,12 @@
+选项,说明
+`-l`,以长格式显示
+`-A` `--almost-all`,显示所有内容包含隐藏数据
+`-d` `--directory`,显示目录本身（而不是内容）的属性
+`-h` `--human-readable`,提供一度的容量单位（K、M 等）
+`-R` `--recursive`,递归显示内容
+`-c`,"with `-lt`: sort by, and show, ctime (time of last modification of file status information); with `-l`: show ctime and sort by name; **otherwise: sort by ctime, newest first**"
+`-g`,类似于 `-l`，但不列出所有者（属主），相关 `-Gl` 不列出属组
+`-L` `--dereference`,符号连接显示所指的对象
+`-n` `--numeric-uid-gid`,"like `-l`, but list numeric user and group IDs"
+`-r` `--reverse`,逆序排列
+`-s` `--size`,以块数形式显示每个文件分配的尺寸

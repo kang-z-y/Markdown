@@ -1,0 +1,4 @@
+格式,后缀,描述
+`.gz`,gzip、gunzip,大部分时候最快
+`.bz2`,bzip2、bunzip2,部分情况最快
+`.xz`,xz、unxz,基本是最慢的
